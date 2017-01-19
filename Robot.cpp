@@ -57,11 +57,11 @@ void Robot::RobotInit(void) {
 /*
  // Use Test mode to charge the catapult
  void Robot::Test(void){ 
- oCatapult->SetCharging();
- while(IsTest() && IsEnabled()){
- oCatapult->CheckCatapult();
- Wait(CYCLE_TIME_DELAY);
- }
+ 	oCatapult->SetCharging();
+ 	while(IsTest() && IsEnabled()){
+ 		oCatapult->CheckCatapult();
+ 		Wait(CYCLE_TIME_DELAY);
+ 	}
  }
  */
 
